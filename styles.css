@@ -26,13 +26,14 @@ body{
   text-align: right;
 }
 .link{
-padding: 0.3rem 0.7rem;  /**The top and bottom padding dosen't reflect in webpage**/
+padding: 0.2rem 0.7rem;
 text-decoration: none;
 color: white;
 font-size: 18px;
 }
 .nav-brand{
   font-size: 20px;
+  padding-top: 0.3rem;
 }
 
 h1{
