@@ -53,11 +53,9 @@ text-align: justify;
   border-bottom-right-radius: 1.5rem;
   margin-left: 10rem;
   margin-right: 10rem;
-  margin-bottom: 2rem;
 }
 
 .footer-heading{
-  color: var(--primary-color);
   text-align: center;
   font-weight: lighter;
   font-size: 17px;
