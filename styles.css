@@ -7,16 +7,11 @@ body{
   --primary-color: #3CC3A1;
 }
 .navigation{
-  background-color: var(--primary-color);
-  color: white;
+  color: var(--primary-color);
   padding: 0.5rem 0.5rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
   margin-left: 6rem;
   margin-right: 6rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 .inline-list{
   display: inline;
@@ -28,12 +23,13 @@ body{
 .link{
 padding: 0.2rem 0.7rem;
 text-decoration: none;
-color: white;
+color: var(--primary-color);
 font-size: 18px;
 }
 .nav-brand{
   font-size: 20px;
   padding-top: 0.3rem;
+  padding-left: 0.3rem;
 }
 
 h1{
@@ -50,7 +46,6 @@ text-align: justify;
 }
 
 .footer{
-  background-color: var(--primary-color);
   padding: 1rem;
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
@@ -62,7 +57,7 @@ text-align: justify;
 }
 
 .footer-heading{
-  color: white;
+  color: var(--primary-color);
   text-align: center;
   font-weight: lighter;
   font-size: 17px;
@@ -70,7 +65,7 @@ text-align: justify;
 
 
 .footer-link{
-  color: white;
+  color: var(--primary-color);
   text-decoration: none;
   padding-left: 1.8rem;
   padding-right: 1.8rem;
